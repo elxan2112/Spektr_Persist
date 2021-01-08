@@ -14,7 +14,7 @@ export function reducerForSearch (state = searchName, action){
     }
 }
 
-const firstStateFavorites = {favoritData: [{}]}
+const firstStateFavorites = {favoritData: []}
 
 export function reducerForFavorites (state = firstStateFavorites, action){
     switch(action.type){
